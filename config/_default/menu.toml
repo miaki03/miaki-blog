@@ -1,0 +1,19 @@
+[[social]]
+    identifier = "github"
+    url        = "https://github.com/"
+
+    [social.params]
+       icon = "brand-github"
+
+[[social]]
+    identifier = "bilibili"
+    url        = "https://bilibili.com"
+
+    [social.params]
+        icon = "brand-bilibili"
+[[social]]
+    identifier = "steam"
+    url        = "https://steamcommunity.com/profiles/76561199520863859/"
+
+    [social.params]
+        icon = "brand-steam"

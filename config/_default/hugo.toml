@@ -1,0 +1,82 @@
+baseURL = "https://blog.xcfx.com/"
+#locale = "zh-cn"
+theme = "hugo-theme-stack"
+author = "Miaki"
+title = "XCFX"
+copyright = "Miaki"
+#defaultContentLanguage = "zh"
+#contentDir = "content"
+enableEmoji = true
+#sectionPagesMenu = 'main'
+
+[Params.dateFormat]
+published = "Jan 02,2006"
+
+[Params]
+mainSections = ["post"]
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+
+[Params.sidebar]
+emoji = "🫖"
+subtitle = "Miaki的博客"
+#avatar = "https://cdn.luogu.com.cn/upload/image_hosting/dumki3o2.png?x-oss-process=image/resize,m_lfit,h_170,w_225"
+avatar = "/img/avatar.png"
+
+[Params.footer]
+since = 2026
+author = "Miaki"
+#customText = "Miaki"
+
+[Params.article]
+license.enabled = true
+license.default = "LICENSED UNDER CC BY-NC-SA 4.0"
+
+#[params.imageProcessing]
+#[params.imageProcessing.cover]
+#enabled = true
+#[params.imageProcessing.content]
+#enabled = true
+
+[params.imageProcessing]
+  cover = true
+  content = true
+
+[Params.homepage]
+type = "archives"
+
+[menu]
+[[menu.main]]
+    name = '主页'
+    pageRef = '/'
+    weight = 10
+[menu.main.params]
+    icon = "home"
+[[menu.main]]
+    name = '关于'
+    pageRef = '/page/about'
+    weight = 20
+[menu.main.params]
+    icon = "user"
+[[menu.main]]
+    name = '归档'
+    pageRef = '/page/archives'
+    weight = 30
+[menu.main.params]
+    icon = "archives"
+[[menu.main]]
+    name = '搜索'
+    pageRef = '/page/search/index'
+    weight = 40
+[menu.main.params]
+    icon = "search"
+[[menu.main]]
+    name = '友链'
+    pageRef = '/page/friend'
+    weight = 50
+[menu.main.params]
+    icon = "link"
+

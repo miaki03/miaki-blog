@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on XCFX</title>
+        <link>http://localhost:1313/post/</link>
+        <description>Recent content in Posts on XCFX</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Miaki</copyright>
+        <lastBuildDate>Fri, 10 Jul 2026 05:56:51 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>基于Hugo&#43;Ngnix的静态个人博客搭建记录</title>
+            <link>http://localhost:1313/p/%E5%9F%BA%E4%BA%8Ehugo-ngnix%E7%9A%84%E9%9D%99%E6%80%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+            <pubDate>Fri, 10 Jul 2026 05:56:51 +0800</pubDate>
+            <guid>http://localhost:1313/p/%E5%9F%BA%E4%BA%8Ehugo-ngnix%E7%9A%84%E9%9D%99%E6%80%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+            <description>&lt;img src=&#34;http://localhost:1313/imge/a5.jpg&#34; alt=&#34;Featured image of post 基于Hugo+Ngnix的静态个人博客搭建记录&#34; /&gt;&lt;h1 id=&#34;项目介绍&#34;&gt;项目介绍&#xA;&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Hugo是什么？&lt;/strong&gt; Hugo 是一款用 Go 编写的静态网站生成器，优化速度并设计灵活。凭借先进的模板系统和快速的资产流水线，Hugo能够在几秒钟内渲染完整网站，通常更短。&lt;br&gt;&#xA;&lt;strong&gt;Nginx是什么？&lt;/strong&gt; Nginx 是一个高性能的 HTTP 服务器和反向代理服务器。不过在这个项目我们只需要用到 HTTP 服务就行。&lt;/p&gt;&#xA;&lt;h1 id=&#34;环境准备&#34;&gt;环境准备&#xA;&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Window11 24h2 + wsl2 上的&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/Ubuntu/155795&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;ubuntu24.04&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;选择在wsl2上部署，是因为环境接近云服务器的linux环境，更贴近真实的网站部署。&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装wsl2&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://learn.microsoft.com/zh-cn/windows/wsl/install&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;安装wsl2&lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;首先打开 powershell 并且以管理员身份运行&lt;br&gt;&#xA;图片&lt;br&gt;&#xA;然后键入下列命令查看支持的 Linux 发行版&lt;br&gt;&#xA;&lt;code&gt;wsl --list --online&lt;/code&gt;&lt;br&gt;&#xA;我们选择的环境是ubuntu24.04&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;🚧&lt;em&gt;施工中……&lt;/em&gt;&lt;/p&gt;&#xA;</description>
+        </item><item>
+            <title>Helloworld</title>
+            <link>http://localhost:1313/p/helloworld/</link>
+            <pubDate>Wed, 08 Jul 2026 01:40:02 +0800</pubDate>
+            <guid>http://localhost:1313/p/helloworld/</guid>
+            <description>&lt;img src=&#34;http://localhost:1313/imge/c1.jpg&#34; alt=&#34;Featured image of post Helloworld&#34; /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1AY4y157yL/?spm_id_from=333.337.search-card.all.click&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;&lt;strong&gt;Hello world!&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;video-wrapper&#34;&gt;&#xD;&#xA;    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1xx411c79H&#34;&#xD;&#xA;            scrolling=&#34;no&#34;&#xD;&#xA;            frameborder=&#34;no&#34;&#xD;&#xA;            framespacing=&#34;0&#34;&#xD;&#xA;            allowfullscreen=&#34;true&#34;&#xD;&#xA;    &gt;&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;br&gt;&#xA;&lt;img alt=&#34;6&#34; loading=&#34;lazy&#34; sizes=&#34;(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px&#34; src=&#34;http://localhost:1313/imge/c1.jpg&#34;&gt;&lt;br&gt;&#xA;&lt;img alt=&#34;6&#34; loading=&#34;lazy&#34; sizes=&#34;(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px&#34; src=&#34;http://localhost:1313/imge/c2.jpg&#34;&gt;&lt;br&gt;&#xA;&lt;img alt=&#34;6&#34; loading=&#34;lazy&#34; sizes=&#34;(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px&#34; src=&#34;http://localhost:1313/imge/c4.jpg&#34;&gt;&lt;br&gt;&#xA;&lt;img alt=&#34;1&#34; loading=&#34;lazy&#34; sizes=&#34;(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px&#34; src=&#34;http://localhost:1313/imge/d3.jpg&#34;&gt;&lt;/p&gt;&#xA;</description>
+        </item></channel>
+</rss>
