@@ -8,6 +8,10 @@ copyright = "Miaki"
 #contentDir = "content"
 enableEmoji = true
 #sectionPagesMenu = 'main'
+customCSS = ["scss/custom.scss"]
+
+[params]
+#customCSS = ["scss/custom.scss"]
 
 [Params.dateFormat]
 published = "Jan 02,2006"
