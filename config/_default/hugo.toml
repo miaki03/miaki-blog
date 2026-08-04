@@ -10,8 +10,7 @@ enableEmoji = true
 #sectionPagesMenu = 'main'
 customCSS = ["scss/custom.scss"]
 
-[params]
-#customCSS = ["scss/custom.scss"]
+
 
 [Params.dateFormat]
 published = "Jan 02,2006"
@@ -84,3 +83,8 @@ type = "archives"
 [menu.main.params]
     icon = "link"
 
+
+#配色方案为深色且不那啥切换
+[Params.colorScheme]
+toggle = false
+default = "dark"
