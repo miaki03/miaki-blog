@@ -7,7 +7,7 @@ body {
   background-color: #000;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/imge/aaa.jpeg');//在这里切换背景图片
+    url('/imge/aaa.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,8 @@ body {
 .article-list article,
 .tagCloud .tagCloud-tags a,
 .article-list--compact,
-.sidebar header .site-avatar .emoji {
+.sidebar header .site-avatar .emoji,
+.menu.show {
   backdrop-filter: blur(12px) saturate(1.3);
   -webkit-backdrop-filter: blur(12px) saturate(1.3);
 }
@@ -39,7 +40,8 @@ body {
 .article-list article,
 .tagCloud .tagCloud-tags a,
 .article-list--compact,
-.sidebar header .site-avatar .emoji {
+.sidebar header .site-avatar .emoji,
+.menu.show {
   background-color: rgba(255, 255, 255, 0.25) !important;
   border-color: rgba(255, 255, 255, 0.15) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
@@ -55,7 +57,8 @@ body {
 [data-scheme="dark"] .article-list article,
 [data-scheme="dark"] .tagCloud .tagCloud-tags a,
 [data-scheme="dark"] .article-list--compact,
-[data-scheme="dark"] .sidebar header .site-avatar .emoji {
+[data-scheme="dark"] .sidebar header .site-avatar .emoji,
+[data-scheme="dark"] .menu.show {
   background-color: rgba(0, 0, 0, 0.4) !important;
   border-color: rgba(255, 255, 255, 0.08) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
@@ -103,9 +106,3 @@ body {
 [data-scheme="dark"] .widget-archive--list .count {
   color: #f0f0f0 !important;
 }
-
-/*
- * 其他元素（文章容器、目录、文章卡片、标签云链接、紧凑归档、头像 emoji）
- * 均已在上述公共规则中应用毛玻璃背景、边框和阴影，
- * 无需再单独书写，主题原有的内边距/圆角/字体等保持不变。
- */
