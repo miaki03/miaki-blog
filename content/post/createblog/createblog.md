@@ -1,8 +1,8 @@
 +++
 date = '2026-07-10T05:56:51+08:00'
 draft = false
-title = '如何搭建一个静态页面博客'
-description = "这篇文章还不该出现在这里QAQ"
+title = '静态页面博客搭建的尝试'
+description = "主要记录环境选择和搭建"
 categories = ["技术分享"]
 image = "/imge/a5.jpg"
 +++
@@ -76,8 +76,6 @@ hugo new site 博客项目文件夹名称
 ```
 git submodule add 你的主题仓库clone链接（例：https://github.com/你的用户名/hugo-theme-stack.git） themes/hugo-theme-stack
 ```
-然后，我们需要在配置文件中指定使用的主题，打开配置文件：  
-
-___
-
-🚧 *施工中……* 
+然后就可以查询官方文档完善配置即可，若追求开箱即用可以直接复制主题文件中的模板。  
+我难以维持一开始这样过于严谨和完美的文风，导致最复杂的配置阶段迟迟不能完笔。  
+所以在此收尾，等到日后博客更新或者迁移时再度完善。
