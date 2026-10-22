@@ -1,5 +1,5 @@
 baseURL = "https://blog.xcfx.com/"
-#locale = "zh-cn"
+locale = "zh-cn"
 theme = "hugo-theme-stack"
 author = "Miaki"
 title = "XCFX"
